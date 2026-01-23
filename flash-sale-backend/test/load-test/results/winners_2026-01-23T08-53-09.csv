@@ -1,0 +1,11 @@
+email,flashSaleId,timestamp,responseTimeMs
+user_d06abb60@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,2026-01-23T08:53:09.801Z,74
+user_830dcc03@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,2026-01-23T08:53:09.802Z,79
+user_3cf5a4fc@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,2026-01-23T08:53:09.802Z,79
+user_35261cd8@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,2026-01-23T08:53:09.803Z,80
+user_83b7dde5@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,2026-01-23T08:53:09.803Z,80
+user_1b95f40c@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,2026-01-23T08:53:09.804Z,80
+user_e7ab8b8d@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,2026-01-23T08:53:09.806Z,76
+user_577830c0@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,2026-01-23T08:53:09.807Z,72
+user_62343288@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,2026-01-23T08:53:09.807Z,73
+user_6480ef04@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,2026-01-23T08:53:09.808Z,74

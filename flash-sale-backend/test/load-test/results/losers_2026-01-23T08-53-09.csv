@@ -1,0 +1,11 @@
+email,flashSaleId,reason,message,timestamp,responseTimeMs
+user_648b13af@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,SOLD_OUT,"Sold out",2026-01-23T08:53:09.804Z,62
+user_5d77894b@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,SOLD_OUT,"Sold out",2026-01-23T08:53:09.804Z,73
+user_7c8b31d2@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,SOLD_OUT,"Sold out",2026-01-23T08:53:09.805Z,72
+user_bd51d3bc@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,SOLD_OUT,"Sold out",2026-01-23T08:53:09.805Z,71
+user_0507fbcd@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,SOLD_OUT,"Sold out",2026-01-23T08:53:09.806Z,72
+user_bc50d24a@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,SOLD_OUT,"Sold out",2026-01-23T08:53:09.806Z,82
+user_73d20e67@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,SOLD_OUT,"Sold out",2026-01-23T08:53:09.808Z,57
+user_bd68095a@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,SOLD_OUT,"Sold out",2026-01-23T08:53:09.809Z,57
+user_a0b77a37@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,SOLD_OUT,"Sold out",2026-01-23T08:53:09.809Z,58
+user_b1b603e4@loadtest.local,fc33ef1b-aaaa-43fa-abb8-1bf96251bab6,SOLD_OUT,"Sold out",2026-01-23T08:53:09.809Z,58
