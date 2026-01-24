@@ -61,8 +61,6 @@ A high-concurrency flash sale system built with NestJS, Redis, BullMQ, and Postg
 | **React Router** | 7.x | Client-side routing |
 | **Axios** | 1.x | HTTP client for API requests |
 
-## Why These Technologies?
-
 ### Redis with Lua Scripts
 - **Atomic Operations**: Lua scripts ensure that checking stock and updating it happens in a single atomic operation, preventing race conditions
 - **High Throughput**: Redis can handle 100,000+ operations per second, perfect for flash sale scenarios
@@ -70,7 +68,6 @@ A high-concurrency flash sale system built with NestJS, Redis, BullMQ, and Postg
 
 ### BullMQ
 - **Reliability**: Built-in retry mechanisms with exponential backoff ensure orders are eventually persisted
-- **Scalability**: Can distribute work across multiple consumer instances
 - **Durability**: Jobs are persisted in Redis, surviving service restarts
 
 ### PostgreSQL
