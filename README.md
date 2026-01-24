@@ -285,32 +285,3 @@ For production deployment, consider:
 6. **HTTPS**: Enable TLS for all communications
 
 
-# MermaidJS
----
-config:
-  theme: redux
----
-flowchart TB
-    A(["Purchase Attempt"])
-    B(["flash-sale Service"])
-    C(["Redis + Lua: Check<br> - Stock<br> - User eligibility<br> - Not bought before<br> - Flash sale active?"])
-    D{"Redis returns Success?"}
-    E(["Queue order in BullMQ"])
-    F(["consumer Service"])
-    G(["Insert to DB (transactional lock)"])
-    H(["User checks Purchase Status"])
-    DB[(Database)]
-
-    %% Process flow
-    A --> B
-    B --> C
-    C --> D
-    D -- "No" --> X["Return Failure to user"]
-    D -- "Yes" --> E
-    E --> F
-    F --> G
-    G --> DB
-    H --> DB
-
-    %% Status check feedback to user
-    DB -- "Purchase status" --> H
