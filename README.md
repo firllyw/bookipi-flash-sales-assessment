@@ -243,7 +243,6 @@ This will present an interactive menu where you can:
 ### Customer Features
 - Real-time stock updates (polling every 2 seconds)
 - Countdown timer for sale duration
-- Visual progress bar for remaining stock
 - Clear feedback messages (success, sold out, already purchased)
 - Email-based user identification via URL params
 
@@ -269,16 +268,4 @@ The system has been tested for the following edge cases:
 4. **Single Item Stock**: Boundary condition with stock = 1
 5. **Time Window Validation**: Purchases rejected before start or after end
 6. **Database Consistency**: Redis wins match database orders
-
-## Production Considerations
-
-For production deployment, consider:
-
-1. **Horizontal Scaling**: Run multiple backend instances behind a load balancer
-2. **Redis Cluster**: Use Redis Cluster for high availability
-3. **Database Replication**: Set up PostgreSQL read replicas
-4. **Monitoring**: Add APM tools (DataDog, New Relic) for observability
-5. **Rate Limiting**: Implement rate limiting to prevent abuse
-6. **HTTPS**: Enable TLS for all communications
-
 
